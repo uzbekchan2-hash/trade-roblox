@@ -20,7 +20,10 @@ ADMIN_IDS  = [int(x) for x in os.environ.get("ADMIN_IDS", "0").split(",") if x.s
 logging.basicConfig(level=logging.INFO)
 
 # ─── DATABASE ─────────────────────────────────────────────────────────────────
-DB = "brainrot.db"
+# Render persistent disk /data papkasini ishlatamiz
+DATA_DIR = os.environ.get("DATA_DIR", "/data")
+os.makedirs(DATA_DIR, exist_ok=True)
+DB = os.path.join(DATA_DIR, "brainrot.db")
 
 def db():
     conn = sqlite3.connect(DB)
