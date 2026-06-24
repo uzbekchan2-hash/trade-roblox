@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/29279120/README.md)
 # 🧠 Steal a Brainrot — Trade Bot
 
 Roblox "Steal a Brainrot" o'yini uchun Telegram trade boti.
