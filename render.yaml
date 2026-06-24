@@ -1,6 +1,6 @@
 services:
   - type: worker
-    name: brainrot-bot
+    name: trade-roblox
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
