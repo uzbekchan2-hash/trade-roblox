@@ -1,4 +1,2 @@
-import os
-
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_IDS = [int(x) for x in os.environ.get("ADMIN_IDS", "").split(",") if x]
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+ADMIN_IDS = [123456789]  # o'z Telegram ID ingni yoz
